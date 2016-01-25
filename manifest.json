@@ -66,9 +66,6 @@
       "stonehearth:farmer:initial_crops" : "file(data/b_initial_crops.json)",
       "/stonehearth/mixins/base_human/base_human.json": "file(data/mixins/base_human.json)"
    },
-   "overrides" : {
-      "stonehearth/services/server/population/population_faction.lua" : "file(services/server/population/population_faction.lua)"
-   },
    "components": {
       "brittleness": "file(components/brittleness/brittleness_component.lua)"
    },
