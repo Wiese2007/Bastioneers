@@ -12,7 +12,7 @@ A new race mod for Stonehearth! Find this wonderful game on steam or go to http:
   That's up to you to find out!
   
 ## Download:
-  Version 0.9.1: https://drive.google.com/open?id=0BzTmOrxgnIzqeVU5VXYzYWM1Mmc
+  Version 0.9.1: https://drive.google.com/open?id=0BzTmOrxgnIzqc1pPbndscVZmTW8
   
   [Get the UI mod!][ui-mod]
   
