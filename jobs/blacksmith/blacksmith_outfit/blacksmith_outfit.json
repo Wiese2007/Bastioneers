@@ -3,9 +3,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "unit_info": {
-         "description": "i18n(bastioneers:jobs.blacksmith.blacksmith_outfit.description)",
+         "description": "i18n(stonehearth:jobs.blacksmith.blacksmith_outfit.description)",
          "icon": "file(blacksmith_outfit.png)",
-         "display_name": "i18n(bastioneers:jobs.blacksmith.blacksmith_outfit.display_name)"
+         "display_name": "i18n(stonehearth:jobs.blacksmith.blacksmith_outfit.display_name)"
       },
       "render_info": {},
       "model_variants": {
