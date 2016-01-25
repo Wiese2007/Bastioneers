@@ -3,9 +3,9 @@
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "unit_info": {
-         "description": "i18n(stonehearth:jobs.blacksmith.potter_outfit.description)",
+         "description": "i18n(stonehearth:jobs.potter.potter_outfit.description)",
          "icon": "file(potter_outfit.png)",
-         "display_name": "i18n(stonehearth:jobs.blacksmith.potter_outfit.display_name)"
+         "display_name": "i18n(stonehearth:jobs.potter.potter_outfit.display_name)"
       },
       "render_info": {},
       "model_variants": {

@@ -180,14 +180,12 @@
       }
    },
    "data": {
-      "data": {
-         "buffs": {
-            "courage": {
-              "courage_buff": {
-                  "display_name": "Courage",
-                  "description": "This hearthling stands taller in the face of danger."
-              }
-            }
+      "buffs": {
+         "courage": {
+           "courage_buff": {
+               "display_name": "Courage",
+               "description": "This hearthling stands taller in the face of danger."
+           }
          }
       },
       "bastioneers_population": {
