@@ -1,0 +1,119 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "dialog_tree",
+   "rarity" : "common",
+   "comment" : "Initial Helper dialogue",
+
+   "in_edge"  : "helper_dialogue",
+   
+   "dialog_tree_info" : {
+                                 
+      "start_node" : "msg0",
+      "nodes" : {
+         "msg0" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.000)",
+               "choices" : {
+                  "bastioneers:ui.game.common.yessir" : {
+                     "next_node" : "msg1"
+                  }
+               }               
+            }
+         },
+         "msg1" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.001)",
+               "choices" : {
+                  "bastioneers:ui.game.common.okay" : {
+                     "next_node" : "msg2"
+                  }
+               }               
+            }
+         },
+         "msg2" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.002)",
+               "choices" : {
+                  "bastioneers:ui.game.common.yessir" : {
+                     "next_node" : "msg3"
+                  }
+               }               
+            }
+         },
+         "msg3" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.003)",
+               "choices" : {
+                  "bastioneers:ui.game.common.okay" : {
+                     "next_node" : "msg4"
+                  }
+               }               
+            }
+         },
+         "msg4" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.004)",
+               "choices" : {
+                  "bastioneers:ui.game.common.yessir" : {
+                     "next_node" : "msg5"
+                  }
+               }               
+            }
+         },
+         "msg5" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.005)",
+               "choices" : {
+                  "bastioneers:ui.game.common.yessir" : {
+                     "next_node" : "msg6"
+                  }
+               }               
+            }
+         },
+         "msg6" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.006)",
+               "choices" : {
+                  "bastioneers:ui.game.common.yessir" : {
+                     "next_node" : "msg7"
+                  }
+               }               
+            }
+         },
+         "msg7" : {
+            "bulletin" : {
+               "title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.helper_title)",
+               "dialog_title" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.dialog_title)",
+               "portrait" : "file(images/bastioneer_commander.png)",
+               "message" : "i18n(bastioneers:data.gm.campaigns.bastioneers.dialog_nodes.bulletin_message.007)",
+               "choices" : {
+                  "bastioneers:ui.game.common.hail" : {
+                     "next_node" : ""
+                  }
+               }               
+            }
+         }
+      }
+   }
+}

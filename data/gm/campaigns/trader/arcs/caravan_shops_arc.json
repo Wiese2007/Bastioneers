@@ -1,0 +1,29 @@
+{
+   "type" : "arc",
+   "rarity" : "common",
+
+   "encounters" : {
+      "wait for afternoon" : "file(encounters/wait_for_afternoon.json)", 
+      "starting food donation" : "file(encounters/starting_food_donation.json)", 
+      "wait for tomorrow 1" : "file(encounters/wait_for_next_day_1.json)", 
+      "wait for tomorrow 2" : "file(encounters/wait_for_next_day_2.json)", 
+      "wait for tomorrow 3" : "file(encounters/wait_for_next_day_3.json)", 
+
+      "iskender_caravan" : "file(encounters/iskender_caravan.json)", 
+      "iskender caravan 1" : "file(encounters/iskender_caravan_1.json)",
+      "iskender caravan 2" : "file(encounters/iskender_caravan_2.json)",
+      "iskender caravan 3" : "file(encounters/iskender_caravan_3.json)",
+
+      "wait_for_shops" : "file(encounters/wait_for_shops.json)", 
+
+      "spawn shop" : "file(encounters/spawn_next_shop.json)",
+      "select shop" : "file(encounters/select_shop.json)", 
+      "woodcutter" : "file(encounters/woodcutter_shop.json)",
+      "stonecutter" : "file(encounters/stonecutter_shop.json)",
+      "tannery" : "file(encounters/tannery_shop.json)",
+      "rugs" : "file(encounters/rugs_shop.json)",
+
+      "simple_caravan" : "file(encounters/simple_caravan_encounter.json)",
+      "returning_trader" : "file(encounters/returning_trader_encounter.json)"
+   }
+}

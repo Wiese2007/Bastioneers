@@ -1,0 +1,40 @@
+{
+   "mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
+   "craftable_recipes": {
+      "tools" : {
+         "recipes": {
+            "blacksmith_hammer": {
+               "recipe": "file(blacksmith_hammer_recipe.json)"
+            },
+            "stone_sword_recipe": {
+               "recipe": "file(stone_sword_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "recipes": {
+            "crude_stone_bed": {
+               "recipe": "file(crude_stone_bed_recipe.json)"
+            },
+            "pleasant_stone_bed": {
+               "recipe": "file(pleasant_stone_bed_recipe.json)"
+            },
+            "luxurious_stone_bed": {
+               "recipe": "file(luxurious_stone_bed_recipe.json)"
+            }
+         }
+      },
+      "armor": {
+         "ordinal": 7,
+         "name": "i18n(bastioneers:jobs.mason.recipes.armor_name)",
+         "recipes": {
+            "makeshift_stone_armor": {
+               "recipe": "file(makeshift_stone_armor_recipe.json)"
+            },
+            "basic_stone_armor": {
+               "recipe": "file(basic_stone_armor_recipe.json)"
+            }
+         }
+      }
+   }
+}

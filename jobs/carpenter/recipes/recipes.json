@@ -1,0 +1,12 @@
+{
+   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+   "craftable_recipes": {
+      "armor": {
+         "recipes": {
+            "crate_helmet": {
+               "recipe": "file(crate_helmet_recipe.json)"
+            }
+         }
+      }
+   }
+}

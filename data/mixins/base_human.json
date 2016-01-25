@@ -1,0 +1,9 @@
+{
+   "entity_data" : {
+      "stonehearth:ai_packs" : {
+         "packs" : [
+            "bastioneers:ai_pack:bastioneers"
+         ]
+      }
+	}
+}

@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 25,
+   "recipe_name": "i18n(bastioneers:jobs.blacksmith.recipes.bucket_helmet_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.blacksmith.recipes.bucket_helmet_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.blacksmith.recipes.bucket_helmet_recipe.flavor)",
+   "portrait": "/bastioneers/entities/armor/bucket_helmet/bucket_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:resources:coal:lump_of_coal",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:armor:bucket_helmet"
+      }
+   ]
+}

@@ -1,0 +1,9 @@
+{
+   "type" : "arc",
+   "rarity" : "common",
+
+   "encounters" : {
+      "start"   : "file(encounters/start.json)",
+      "helper_dialogue": "file(encounters/helper_dialogue.json)"
+   }
+}

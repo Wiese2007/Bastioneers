@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:jobs.weaver.weaver_outfit.description)",
+         "icon": "file(weaver_outfit.png)",
+         "display_name": "i18n(stonehearth:jobs.weaver.weaver_outfit.display_name)"
+      },
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(weaver_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(weaver_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:herbalist",
+   "requirements": "i18n(bastioneers:jobs.herbalist.herbalist_description.requirements)",
+   "description": "i18n(bastioneers:jobs.herbalist.herbalist_description.description)",
+   "parent_job": "stonehearth:jobs:footman",
+   "parent_level_requirement": 2,
+   "crafter": {
+   "recipe_list": "/bastioneers/jobs/herbalist/recipes/recipes.json"
+   },
+   "equipment": {
+   		"torso" : "file(herbalist_outfit)",
+   		"head" : "file(herbalist_hood)"
+   }
+}

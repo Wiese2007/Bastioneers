@@ -1,0 +1,15 @@
+{
+   "mixins": "/stonehearth/jobs/worker/mixins/worker_outfit_2_iconic.json",
+   "components": {
+      "stonehearth:material": {
+         "tags": "armor light_armor cloth b_made"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(worker_outfit_2_iconic.qb)"
+            ]
+         }
+      }
+   }
+}

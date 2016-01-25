@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:entities.armor.leather_vest.leather_vest_iconic.description)",
+         "icon": "file(leather_vest.png)",
+         "display_name": "i18n(stonehearth:entities.armor.leather_vest.leather_vest_iconic.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor light_armor"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(leather_vest_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   }
+}

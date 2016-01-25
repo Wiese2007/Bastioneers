@@ -1,0 +1,150 @@
+{
+   "display_name": "i18n(bastioneers:data.bastioneers_population.display_name)",
+   "kingdom_id": "bastioneers",
+   "favored_biome": "stonehearth:biome:temperate",
+   "quote": "i18n(bastioneers:kingdom.quote)",
+   "description": "i18n(bastioneers:kingdom.long_description)",
+   "post_selection_description": "i18n(bastioneers:kingdom.post_selection_description)",
+   "image": "/bastioneers/data/images/bastioneers_400x300.png",
+   "story_board_image": "/bastioneers/data/images/story_board_image.png",
+   "starting_talisman": "stonehearth:mason:talisman",
+   "camp_standard": "bastioneers:b_camp_standard",
+   "job_index": "bastioneers:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:blacksmith" : "bastioneers:jobs:blacksmith",
+      "stonehearth:jobs:carpenter" : "bastioneers:jobs:carpenter",
+      "stonehearth:jobs:cook" : "bastioneers:jobs:cook",
+      "stonehearth:jobs:farmer" : "bastioneers:jobs:farmer",
+      "stonehearth:jobs:footman" : "bastioneers:jobs:footman",
+      "stonehearth:jobs:herbalist" : "bastioneers:jobs:herbalist",
+      "stonehearth:jobs:mason" : "bastioneers:jobs:mason", 
+      "stonehearth:jobs:potter" : "bastioneers:jobs:potter",
+      "stonehearth:jobs:shepherd" : "bastioneers:jobs:shepherd",
+      "stonehearth:jobs:trapper" : "bastioneers:jobs:trapper",
+      "stonehearth:jobs:weaver" : "bastioneers:jobs:weaver",
+      "stonehearth:jobs:worker" : "bastioneers:jobs:worker"
+   },
+   "roles": {
+      "default": {
+         "male": {
+            "uri": [
+               "bastioneers:male"
+            ],
+            "given_names": [
+               "Acum",
+               "Adam",
+               "Aegr",
+               "Aesch",
+               "Broc",
+               "Bazz",
+               "Dumr",
+               "Ferro",
+               "Graph",
+               "Hectr",
+               "Irid",
+               "Jaspr",
+               "Jet",
+               "Leed",
+               "Lud",
+               "Spectr"
+            ]
+         },
+         "female": {
+            "uri": [
+               "bastioneers:female"
+            ],
+            "given_names": [
+               "Emm",
+               "Diam",
+               "Cryst",
+               "Sapph",
+               "Opp",
+               "Tohp",
+               "Amth",
+               "Olv",
+               "Zir",
+               "Emm",
+               "Dim",
+               "Crystl",
+               "Sapphr",
+               "Oppl",
+               "Tohpz",
+               "Olv",
+               "Zirc",
+               "Jad",
+               "Leed"
+            ]
+         },
+         "surnames": [
+            "cite",
+            "lite",
+            "mite",
+            "rite",
+            "ite",
+            "tite",
+            "dium",
+            "uhm",
+            "uum",
+            "um"
+         ],
+         "lineages": [
+            "I",
+            "II",
+            "III",
+            "I",
+            "II",
+            "III",
+            "I",
+            "II",
+            "IV",
+            "V",
+            "VI",
+            "VII",
+            "IX",
+            "X",
+            "XI"
+         ]
+      }
+
+   },
+   "town_pieces": {
+      "optional_prefix": [
+         "Bronze",
+         "Copper",
+         "Iron",
+         "Steel",
+         "Gold",
+         "Platinum"
+      ],
+      "town_name": [
+         "Bastion",
+         "Shield",
+         "Bulwark",
+         "Tower",
+         "Barbican",
+         "Garrison",
+         "Fort",
+         "Fortress"
+      ],
+      "suffix": [
+         "holm",
+         "hold",
+         "keep",
+         "holm III",
+         "hold III",
+         "keep III",
+         "holm IV",
+         "hold IV",
+         "keep IV",
+         "holm V",
+         "hold V",
+         "keep V",
+         "holm VI",
+         "hold VI",
+         "keep VI",
+         "holm VII",
+         "hold VII",
+         "keep VII"
+      ]
+   }
+}

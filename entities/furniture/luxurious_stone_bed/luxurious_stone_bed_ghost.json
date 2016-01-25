@@ -1,0 +1,40 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.furniture.luxurious_stone_bed.luxurious_stone_bed_ghost.description)",
+         "icon": "file(luxurious_stone_bed.png)",
+         "display_name": "i18n(bastioneers:entities.furniture.luxurious_stone_bed.luxurious_stone_bed_ghost.display_name)"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(luxurious_stone_bed.qb)"
+            ]
+         },
+         "sleeping": {
+            "models": [
+               "file(luxurious_stone_bed_sleeping.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "stone furniture crafted"
+      },
+      "render_info": {
+         "scale": 0.22
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   }
+}

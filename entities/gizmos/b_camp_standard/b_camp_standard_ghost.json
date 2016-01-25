@@ -1,0 +1,27 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.gizmos.b_camp_standard.b_camp_standard_ghost.description)",
+         "icon": "file(b_camp_standard.png)",
+         "display_name": "i18n(bastioneers:entities.gizmos.b_camp_standard.b_camp_standard_ghost.display_name)"
+      },
+      "stonehearth:material": {
+         "tags": "wood cloth decoration"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(b_camp_standard.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0
+         }
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.food.fungi.golden_mushroom_serving.description)",
+         "icon": "file(golden_mushroom_serving.png)",
+         "display_name": "i18n(bastioneers:entities.food.fungi.golden_mushroom_serving.display_name)"
+      },
+      "item": {
+         "category": "food"
+      },
+      "stonehearth:material": {
+         "tags": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(golden_mushroom_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:activity_name": "eating_mushrooms",
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 20
+         },
+         "default": {
+            "satisfaction": 16
+         }
+      }
+   }
+}

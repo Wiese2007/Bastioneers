@@ -1,0 +1,26 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wicker_basket.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.storage.wicker_basket.wicker_basket_ghost.description)",
+         "icon": "file(wicker_basket.png)",
+         "display_name": "i18n(bastioneers:entities.storage.wicker_basket.wicker_basket_ghost.display_name)"
+      },
+      "render_info" : {
+        "scale" : 0.12
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.0, "y": 0, "z": 0.0 },
+         "region_origin" : { "x": -0.5, "y": 0, "z": 0.5 }
+      },
+      "stonehearth:material" : {
+         "tags" : "storage wicker crafted"
+      }
+   }
+}

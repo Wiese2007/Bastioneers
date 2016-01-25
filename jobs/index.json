@@ -1,0 +1,40 @@
+{
+   "jobs" : {
+      "stonehearth:jobs:blacksmith" : {
+          "description" : "bastioneers:jobs:blacksmith"
+      },
+      "stonehearth:jobs:carpenter" : {
+         "description" : "bastioneers:jobs:carpenter"
+      },
+      "stonehearth:jobs:cook" : {
+         "description" : "bastioneers:jobs:cook"
+      },
+      "stonehearth:jobs:farmer" : {
+         "description" : "bastioneers:jobs:farmer"
+      },
+      "stonehearth:jobs:herbalist" : { 
+         "description" : "bastioneers:jobs:herbalist"
+      },
+      "stonehearth:jobs:footman" : {
+         "description" : "bastioneers:jobs:footman"
+      },
+      "stonehearth:jobs:mason" : { 
+         "description" : "bastioneers:jobs:mason"
+      },
+      "stonehearth:jobs:potter" : { 
+         "description" : "bastioneers:jobs:potter"
+      },
+      "stonehearth:jobs:shepherd" : { 
+         "description" : "bastioneers:jobs:shepherd"
+      },
+      "stonehearth:jobs:trapper" : { 
+         "description" : "bastioneers:jobs:trapper"
+      },
+      "stonehearth:jobs:weaver" : {
+         "description" : "bastioneers:jobs:weaver"
+      },
+      "stonehearth:jobs:worker" : {
+         "description" : "bastioneers:jobs:worker"
+      }
+   }
+}

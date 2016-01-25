@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:jobs.farmer.farmer_hood.description)",
+         "icon": "file(farmer_hood.png)",
+         "display_name": "i18n(bastioneers:jobs.farmer.farmer_hood.display_name)"
+      },
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(farmer_hood.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(farmer_hood_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece" : {
+         "slot": "head",
+         "render_type": "merge_with_model"
+      }
+   }
+}

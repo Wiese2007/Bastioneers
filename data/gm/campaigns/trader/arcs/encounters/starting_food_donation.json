@@ -1,0 +1,61 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "starting_food_donation",
+   "out_edge": "wait_for_tomorrow_1",
+   "donation_dialog_info": {
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/naryal_iskender.png)",
+               "message": [
+                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)",
+                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.001)",
+                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.002)",
+                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.003)",
+                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.004)"
+               ],
+               "choices": {
+                  "rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 3,
+                  "max": 4
+               },
+               "items": {
+                  "pumpkin_basket": {
+                     "uri": "stonehearth:food:pumpkin:pumpkin_basket",
+                     "weight": 4
+                  },
+                  "corn_basket": {
+                     "uri": "stonehearth:food:corn:corn_basket",
+                     "weight": 3
+                  },
+                  "prickly_pear_basket": {
+                     "uri": "stonehearth:food:prickly_pear:prickly_pear_basket",
+                     "weight": 5
+                  },
+                  "clay_lamp": {
+                     "uri": "stonehearth:decoration:clay_lamp",
+                     "weight": 2
+                  },
+                  "decorative_teapot": {
+                     "uri": "stonehearth:decoration:decorative_teapot",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

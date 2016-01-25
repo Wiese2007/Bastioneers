@@ -1,0 +1,11 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_time_of_day",
+
+   "in_edge"  : "start",
+   "out_edge" : "helper_dialogue",
+
+   "wait_for_time_of_day_info" :  {
+      "time" : "10:00"
+   }
+}

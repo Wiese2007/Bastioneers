@@ -1,0 +1,42 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_sword.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.description)",
+         "icon": "file(stone_sword.png)",
+         "display_name": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.display_name)"
+      },
+      "item": {
+         "category": "tools"
+      },
+      "stonehearth:material": {
+         "tags": "stone melee_weapon crafted tool"
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "stonehearth:jobs:footman"
+      }
+   },
+   "entity_data" : {
+      "stonehearth:net_worth" : {
+         "value_in_gold" : 30,
+         "rarity" : "rare",
+         "shop_info" : {
+            "buyable" : true,   
+            "sellable" : true,
+            "shopkeeper_level" : 1,
+            "shopkeeper_type" : "caravan"
+         }
+      }            
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "type" : "job",
+   "mixins" : "stonehearth:jobs:carpenter",
+   "requirements": "i18n(bastioneers:jobs.carpenter.carpenter_description.requirements)",
+   "description": "i18n(bastioneers:jobs.carpenter.carpenter_description.description)",
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement" : 4,
+   "crafter": {
+   	   "recipe_list": "/bastioneers/jobs/carpenter/recipes/recipes.json"
+   },
+   "equipment": {
+   		"torso" : "file(carpenter_outfit)"
+   }
+}

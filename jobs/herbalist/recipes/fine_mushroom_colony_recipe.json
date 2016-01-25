@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(bastioneers:jobs.herbalist.recipes.fine_mushroom_colony_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.herbalist.recipes.fine_mushroom_colony_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.herbalist.recipes.fine_mushroom_colony_recipe.flavor)",
+   "portrait": "/bastioneers/entities/fungi/fine_mushroom_colony/fine_mushroom_colony.png",
+   "workshop" : "stonehearth:herbalist:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "bastioneers:fungi:mushroom_colony",
+         "count": 1
+      },
+      {
+         "material": "herb resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:fungi:fine_mushroom_colony",
+         "fine": "bastioneers:fungi:golden_mushroom_colony"
+      }
+   ]
+}

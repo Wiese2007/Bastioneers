@@ -1,0 +1,13 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:cook",
+   "requirements": "i18n(bastioneers:jobs.cook.cook_description.requirements)",
+   "description": "i18n(bastioneers:jobs.cook.cook_description.description)",
+   "parent_level_requirement" : 3,
+   "crafter": {
+      "recipe_list": "/bastioneers/jobs/cook/recipes/recipes.json"
+   },
+  "equipment": {
+      "torso": "file(cook_outfit)"
+   }
+}

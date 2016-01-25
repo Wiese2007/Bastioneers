@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(bastioneers:jobs.mason.recipes.stone_sword_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.mason.recipes.stone_sword_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.mason.recipes.stone_sword_recipe.flavor)",
+   "portrait": "/bastioneers/entities/weapons/stone_sword/stone_sword.png",
+   "workshop" : "stonehearth:mason:workbench", 
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:footman:stone_sword_talisman"
+      }
+   ]
+}

@@ -1,0 +1,62 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:footman",
+   "requirements": "i18n(bastioneers:jobs.footman.footman_description.requirements)",
+   "description": "i18n(bastioneers:jobs.footman.footman_description.description)",
+   "parent_job": "stonehearth:jobs:trapper",
+   "parent_level_requirement": 2,
+   "talisman_uri": "bastioneers:footman:stone_sword_talisman",
+   "equipment": {
+      "torso": "bastioneers:armor:makeshift_stone_armor",
+      "mainhand": "bastioneers:weapons:stone_sword"
+   },
+   "xp_rewards": {
+      "base_exp_per_hit": 9
+   },
+   "level_data": {
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(stonehearth:jobs.footman.footman_description.level_1_data.perk_000_name)",
+               "id": "footman_damage_up_1",
+               "icon": "file(images/damage_up_1.png)",
+               "buff_name": "stonehearth:buffs:footman:dmg_1",
+               "description": "i18n(stonehearth:jobs.footman.footman_description.level_1_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "i18n(stonehearth:jobs.footman.footman_description.level_3_data.perk_000_name)",
+               "id": "footman_power_spike",
+               "icon": "file(images/power_strike.png)",
+               "equipment": "stonehearth:footman:manual_of_power_spike",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "i18n(stonehearth:jobs.footman.footman_description.level_3_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(stonehearth:jobs.footman.footman_description.level_4_data.perk_000_name)",
+               "id": "footman_damage_up_2",
+               "icon": "file(images/damage_up_2.png)",
+               "buff_name": "stonehearth:buffs:footman:dmg_2",
+               "last_buff": "stonehearth:buffs:footman:dmg_1",
+               "description": "i18n(stonehearth:jobs.footman.footman_description.level_4_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      }
+   }
+}

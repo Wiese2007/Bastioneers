@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.iron_mail_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.iron_mail_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.iron_mail_recipe.flavor)",
+   "portrait": "/bastioneers/entities/armor/iron_mail/iron_mail.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 4
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:armor:iron_mail"
+      }
+   ]
+}

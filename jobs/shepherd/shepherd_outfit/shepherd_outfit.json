@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:jobs.shepherd.shepherd_outfit.description)",
+         "icon": "file(shepherd_outfit.png)",
+         "display_name": "i18n(stonehearth:jobs.shepherd.shepherd_outfit.display_name)"
+      },
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(shepherd_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(shepherd_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   }
+}

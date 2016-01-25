@@ -1,0 +1,434 @@
+{
+   "kingdom": {
+      "kingdom_name": "Bastioneers",
+      "quote": "Bastioneers hold The Herald; The Herald is our bastion",
+      "long_description2": "Strong as stone and dangerous as the threats they face within their mines. Their culture enforces strict hierarchies and subserviance to the elite. Little is known about their origins or what exactly The Herald is.",
+      "long_description": " They are a curious, stony race. Besides hailing from unknown mountains proclaiming the strength of a mysterious entity called the Herald. Little else is known about these creatures. They are ill prepared for survival on the surface, so be prepared for difficulties.",
+      "post_selection_description": ", curious and swift, they will work until they drop, so care for them kindly."
+   },
+   "jobs": {
+      "blacksmith": {
+         "blacksmith_description": {
+            "description": "Upon shaping the earth, some find they prefer the heat and power of metalworking over stone masonry. They utilize their powerful hammers to shape metal into armors, weapons, etc.",
+            "requirements": "Level 2 Mason and a Blacksmith's Hammer, crafted by the Mason."
+         },
+         "recipes": {
+            "bucket_helmet_recipe": {
+               "recipe_name": "Exotic Metal Headpiece",
+               "description": "The pinnacle of form and function",
+               "flavor": "The Herald would swell with pride to look upon this."
+            },
+            "ornate_armor_recipe": {
+            "recipe_name": "Ornate Armor",
+            "description": "An honorable vestament fit for grand protectors of the Herald.",
+            "flavor": "It will blind your enemies."
+            },
+            "reinforced_armor_recipe": {
+               "recipe_name": "Reinforced Armor",
+               "description": "Highly protective, lending courage to those who wear it.",
+               "flavor": "For the Herald!"
+            }
+         }
+      },
+      "carpenter": {
+         "carpenter_description": {
+            "description": "Masonry is tiring work. Softer souls are drawn to the supple and flexible nature of wood. The malleable nature of woods lends itself craft finer, prettier furniture and equipment than stone.",
+            "requirements": "Level 4 Mason and a Carpenter's Saw, crafted by the Blacksmith."
+         },
+         "recipes": {
+            "crate_helmet_recipe": {
+               "recipe_name": "Herald's Woody Helmet",
+               "description": "It fits so perfectly, how can it be anything but a headpiece?",
+               "flavor": "The protection this provides is immeasurable."
+            }
+         }
+      },
+      "cook": {
+         "cook_description": {
+            "description": "As with people, tending crop for any amount of time reveal who work well with whom. Cooks choose rather to use these harmonies to create dishes to feed others.",
+            "requirements": "Level 2 Farmer and a Stoneware Spoon, crafted by the Mason."
+         },
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "Are gourds are more edible when cooked?",
+               "recipe_name": "Golden Guord Curry",
+               "flavor": "TODO(flavor!)"
+            },
+            "flat_bread_recipe": {
+               "description": "Unleavened bread made from corn meal",
+               "recipe_name": "Flat Bread"
+            },
+            "meat_tagine_recipe": {
+               "description": "Meat and veggies simmered in a clay pot",
+               "recipe_name": "Meat Stew Tagine"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "Veggies simmered in a clay pot",
+               "recipe_name": "Vegetable Stew Tagine"
+            }
+         }
+      },
+      "farmer": {
+         "farmer_description": {
+            "description2": "Spending all your time wandering and stalking through nature, one can't help but long to settle down. Farmer return to the sedentary life of growing crops that can be crafted, used in cooking, or healing.",            "requirements": "Level 2 Herbalist and a Farmer's Hoe, crafted by the Carpenter."
+         },
+         "farmer_hood": {
+            "description": "A basic hood to keep the sun off one's neck while they farm.",
+            "display_name": "Farmer's Hood"
+         }
+      },
+      "footman": {
+         "footman_description": {
+            "description": "Defending the herald is a necessity, and some find pleasure in killing, so they become Footmen. They focus their bloodlust on looting and defending in the name of The Herald",
+            "requirements": "Level 2 Trapper and a Stone Practice Sword, crafted by the Mason."
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "description": "Perhaps they couldn't stomach the slaughtering, or maybe they simply weren't good at it, but some find that flora are more useful than fauna. Herbalists use plants to concoct potions that heal and buff stats.",
+            "requirements": "Level 2 Footman and an Herbalist's Staff, crafted by the Carpenter."
+         },
+         "herbalist_hood": {
+            "description": "A nice hood that completes a herbalist's robe",
+            "display_name": "Herbalist's Hood"
+         },
+         "recipes": {
+            "fungi_name": "Fungi",
+            "fine_mushroom_colony_recipe": {
+               "description": "Propagate a more nutritious species of edible mushrooms",
+               "flavor": "Let's see if we can't make these things tastier too.",
+               "recipe_name": "Propagate Mushrooms"
+            },
+            "mushroom_colony_recipe": {
+               "description": "Cultivate a colony of edible mushrooms",
+               "flavor": "For when you're tired of eating berries.",
+               "recipe_name": "Cultivate Mushroom Colony"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "description": "Wishing to shape the world around them, Masons opt to use stone to craft useful furniture, tools, or ornaments.",
+            "requirements": "Mason's Chisel, crafted by the Potter."
+         },
+         "recipes" : {
+            "armor_name": "Armor",
+         	"crude_stone_bed_recipe": {
+         		"description": "A bed made from stone and wood shavings.",
+         		"flavor": "Wood shavings are better than nothing.",
+         		"recipe_name": "Crude Stone Bed"
+         	},
+            "luxurious_stone_bed_recipe": {
+               "description": "A marvel of recumbent design.",
+               "flavor": "The comforter protects you from the monsters underneath",
+               "recipe_name": "Luxurious Stone Bed"
+            },
+            "makeshift_stone_armor_recipe": {
+               "recipe_name": "Makeshift Stone Armor",
+               "description": "Crafted out of necessity. Prone to breaking.",
+               "flavor": "Its immense weight must be good exercise..."
+            },
+            "basic_stone_armor_recipe": {
+               "recipe_name": "Basic Stone Armor",
+               "description": "A durable armor, still somewhat brittle.",
+               "flavor": "Your back will thank you for wearing this."
+            },
+            "pleasant_stone_bed_recipe": {
+               "description": "An upgraded bed, provides a much more restful sleep.",
+               "flavor": "'Ahhh...' - Everyone who sleeps in this bed.",
+               "recipe_name": "Pleasant Stone Bed"
+            },
+            "stone_sword_recipe": {
+               "description": "A rudimentary stone sword that's good for practicing one's combat. Used to level up to a footman.",
+               "flavor": "More whack than slash.",
+               "recipe_name": "Stone Practice Sword"
+            }
+         }
+      },
+      "shepherd": {
+         "shepherd_description": {
+            "description": "Some trappers discover a love for the other creatures of the world. They choose to shun murder for animal husbandry.",
+            "description2": "Patrolling day in and day out causing some to grow restless; trappers wish to roam the wilds, hunting animals and providing meat and pelts.",
+            "requirements": "Level 4 Trapper and a Shepherd's Crook, crafted by the Carpenter."
+         }
+      },
+      "trapper": {
+         "trapper_description": {
+            "description": "With their newfound freedom, some Bastioneers choose to roam far and wide rather than shape the earth aorund them.",
+            "description2": "Patrolling day in and day out causing some to grow restless; trappers wish to roam the wilds, hunting animals and providing meat and pelts.",
+            "requirements": "Trapper's Knife, crafted by the Blacksmith."
+         }
+      },
+      "potter": {
+         "potter_description": {
+            "description": "Clay is a unique hybrid of hard stone, supple wood, and molten metal that few can utilize. Those who choose to, can craft unique furnitures and vessels.",
+            "requirements": "level 5 Mason and a Potter's Cutter, crafted by the Mason."
+         }
+      },
+      "weaver" : {
+         "weaver_description": {
+            "description": "Healing the sick and wounded is a messy job. Those with weaker stomachs might choose to weaving the fibres that they are familiar with into clothes that might prevent sickness and injury.",
+            "requirements": "level 3 Herbalist and a Weaver's Spindle, crafted by the Carpenter."
+         },
+         "recipes": {
+            "wicker_basket_recipe": {
+               "description": "Sturdy and lightweight, perfect for the worker on the go.",
+               "flavor": "It matches the dirt on my outfit!",
+               "recipe_name": "Wicker Backpack"
+            }
+         }
+      }
+   },
+   "data": {
+      "data": {
+         "buffs": {
+            "courage": {
+              "courage_buff": {
+                  "display_name": "Courage",
+                  "description": "This hearthling stands taller in the face of danger."
+              }
+            }
+         }
+      },
+      "bastioneers_population": {
+         "display_name": "Bastioneers"
+      },
+      "gm": {
+         "campaigns": {
+            "bastioneers": {
+               "dialog_nodes": {
+                  "dialog_title": "Bastioneers Commander",
+                  "helper_title": "The Herald's Expedition",
+                  "bulletin_message": {
+                     "000": "Righty 'neers, looks like made camp and preparing to make settlement!",
+                     "001": "Moving along then. Here's advice.",
+                     "002": "It's scary out here, prepare to face many, many monsters.",
+                     "003": "The Herald's skilled masons craft armor that any 'neer wears; practically naked without it!",
+                     "004": "Right, stone armor breaks often, keep a good supply around! Otherwise, menacing monsters will eat you up!",
+                     "005": "Lots of learning and discovering out here, ingenuity needed to survive. None envy your group.",
+                     "006": "The Herald checks up on once settled and safe, with some requests... The Herald will not be denied. ",
+                     "007": "The Herald is our bastion."
+                  }
+               }
+            },
+            "trader": {
+               "iskender_caravan_1": {
+                  "shop_info": {
+                     "name": "Iskender Trading Caravan",
+                     "title": "The Iskender Trading Caravan returns!"
+                  }
+               },
+               "iskender_caravan_2": {
+                  "shop_info": {
+                     "name": "Iskender Trading Caravan",
+                     "title": "The Iskender Trading Caravan returns with more things!"
+                  }
+               },
+               "iskender_caravan_3": {
+                  "shop_info": {
+                     "name": "Iskender Trading Caravan",
+                     "title": "The Iskender Trading Caravan returns!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake your families sent along:",
+                              "001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies your families ordered for you:",
+                              "002": "Iskender Traders is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
+                              "003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, your parents sent these supplies, to get you started:",
+                              "004": "Aha, a new potential partner for Iskender Traders! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
+                           },
+                           "bulletin_title": "An Iskender Agent Approaches",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Many thanks, Honored Elder!"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "Vosker Saji's Polished Earths",
+                     "title": "A master mason's cart draws near"
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "Rin's Fine Pelts and Rugs",
+                     "title": "A wagon of fine animal goods approaches"
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "Rajin's Goods of the Distant West",
+                     "title": "An exotic shop of rare woods arrives"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "armor": {
+         "bucket_helmet": {
+            "display_name": "Exotic Metal Headpiece",
+            "description": "The pinnacle of form and function",
+            "bucket_helmet_iconic": {
+               "display_name": "Exotic Metal Headpiece",
+               "description": "The pinnacle of form and function"
+            }
+         },
+         "crate_helmet": {
+            "display_name": "Herald's Woody Helmet",
+            "description": "It fits so perfectly, how can it be anything but a headpiece?",
+            "crate_helmet_iconic": {
+               "display_name": "Herald's Woody Helmet",
+               "description": "It fits so perfectly, how can it be anything but a headpiece?"
+            }
+         },
+         "makeshift_stone_armor": {
+            "display_name": "Makeshift Stone Armor",
+            "description": "Crafted out of necessity. Prone to breaking.",
+            "makeshift_stone_armor_iconic": {
+               "display_name": "Makeshift Stone Armor",
+               "description": "Crafted out of necessity. Prone to breaking."
+            }
+         },
+         "basic_stone_armor": {
+            "display_name": "Basic Stone Armor",
+            "description": "A durable armor, still somewhat brittle.",
+            "basic_stone_armor_iconic": {
+               "display_name": "Basic Stone Armor",
+               "description": "A durable armor, still somewhat brittle."
+            }
+         },
+         "ornate_armor": {
+            "display_name": "Ornate Armor",
+            "description": "An honorable vestament fit for grand protectors of the Herald.",
+            "ornate_armor_iconic": {
+               "display_name": "Ornate Armor",
+               "description": "An honorable vestament fit for grand protectors of the Herald."
+            }
+         },
+         "reinforced_armor": {
+            "display_name": "Reinforced Armor",
+            "description": "Highly protective, lending courage to those who wear it.",
+            "reinforced_armor_iconic": {
+               "display_name": "Reinforced Armor",
+               "description": "Highly protective, lending courage to those who wear it."
+            }
+         }
+      },
+      "food": {
+         "fungi": {
+            "fine_mushroom_basket": {
+               "description": "Oof, these are heavy!",
+               "display_name": "Basket of Fine Mushrooms"
+            },
+            "fine_mushroom_serving": {
+               "description": "Much tastier than wild mushrooms.",
+               "display_name": "Fine Mushrooms"
+            },
+            "golden_mushroom_basket": {
+               "description": "Don't let these guys spoil!",
+               "display_name": "Golden Mushroom Basket"
+            },
+            "golden_mushroom_serving": {
+               "description": "Don't let these guys spoil!",
+               "display_name": "Golden Mushrooms"
+            },
+            "mushroom_basket": {
+               "description": "Just a big basket of mushrooms.",
+               "display_name": "Basket of Mushrooms"
+            },
+            "mushroom_serving": {
+               "description": "Goes great with a side of berries.",
+               "display_name": "Plate of Mushrooms"
+            }
+         }
+      },
+      "fungi": {
+         "fine_mushroom_colony": {
+            "description": "Infused with stones, for a proper 'neers diet",
+            "display_name": "Quality Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         },
+         "golden_mushroom_colony": {
+            "description": "The herbalist says they're infused with The Herald's power",
+            "display_name": "Golden Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         },
+         "mushroom_colony": {
+            "description": "Nutritious, but could be tastier",
+            "display_name": "Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         }
+      },
+      "furniture": {
+         "crude_stone_bed": {
+            "crude_stone_bed_ghost": {
+               "display_name": "Crude Stone Bed",
+               "description": "I guess wood shavings are better than nothing."
+            }
+         },
+         "kingly_stone_bed": {
+            "kingly_stone_bed_ghost": {
+               "display_name": "Kingly Stone Bed",
+               "description": "Use exponents to express its thread count."
+            }
+         },"luxurious_stone_bed": {
+            "luxurious_stone_bed_ghost": {
+               "display_name": "Luxurious Stone Bed",
+               "description": "You won't want to leave."
+            }
+         },
+         "pleasant_stone_bed": {
+            "pleasant_stone_bed_ghost": {
+               "display_name": "Pleasant Stone Bed",
+               "description": "A comfortable sleep accomodation."
+            }
+         }
+      },
+      "gizmos": {
+         "b_camp_standard": {
+            "b_camp_standard_ghost": {
+               "display_name": "The Herald Sigil",
+               "description": "May it steel us."
+            }
+         }
+      },
+      "storage": {
+         "wicker_basket": {
+            "wicker_basket_ghost": {
+               "display_name": "Wicker Basket",
+               "description": "Sturdy and lightweight, perfect for the worker on the go!"
+            }
+         }
+      },
+      "weapons": {
+         "stone_sword": {
+            "description": "A rudimentary weapon thats good for practicing combat skills.",
+            "display_name": "Stone Practice Sword",
+            "stone_sword_iconic": {
+               "description": "More whack than slash.",
+               "display_name": "Stone Practice Sword"
+            },
+            "stone_sword_talisman": {
+               "description": "A rudimentary weapon thats good for practicing combat skills.",
+               "display_name": "Stone Practice Sword"
+            }
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "common": {
+            "hail": "Glory to The Herald!",
+            "okay": "Okay",
+            "yessir": "Yessir!"
+         }
+      }
+   }
+}

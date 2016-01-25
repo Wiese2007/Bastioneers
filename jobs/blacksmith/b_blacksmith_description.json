@@ -1,0 +1,14 @@
+{
+   "type" : "job",
+   "mixins" : "stonehearth:jobs:blacksmith",
+   "requirements": "i18n(bastioneers:jobs.blacksmith.blacksmith_description.requirements)",
+   "description": "i18n(bastioneers:jobs.blacksmith.blacksmith_description.description)",
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement" : 2,
+   "crafter": {
+   "recipe_list": "/bastioneers/jobs/blacksmith/recipes/recipes.json"
+   },
+   "equipment": {
+      "torso": "file(blacksmith_outfit)"
+   }
+}

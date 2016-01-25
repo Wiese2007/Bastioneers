@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(bastioneers:jobs.mason.recipes.makeshift_stone_armor_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.mason.recipes.makeshift_stone_armor_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.mason.recipes.makeshift_stone_armor_recipe.flavor)",
+   "portrait": "/bastioneers/entities/armor/makeshift_stone_armor/makeshift_stone_armor.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:armor:makeshift_stone_armor"
+      }
+   ]
+}

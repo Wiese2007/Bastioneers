@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(bastioneers:jobs.mason.recipes.crude_stone_bed_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.mason.recipes.crude_stone_bed_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.mason.recipes.crude_stone_bed_recipe.flavor)",
+   "portrait": "/bastioneers/entities/furniture/crude_stone_bed/crude_stone_bed.png",
+   "workshop" : "stonehearth:mason:workbench", 
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:furniture:crude_stone_bed"
+      }
+   ]
+}

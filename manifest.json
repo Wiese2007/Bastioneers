@@ -1,0 +1,78 @@
+{
+   "info" : {
+      "name" : "bastioneers",
+      "version" : 2
+   },
+   "default_locale": "en",
+   "client_init_script" : "file(bastioneers_client)",
+   "server_init_script" : "file(bastioneers_server)",
+   "aliases" : {
+      "ai_pack:bastioneers" : "file(ai/packs/bastioneers_ai_pack.json)",
+      "armor:basic_stone_armor": "file(entities/armor/basic_stone_armor/basic_stone_armor.json)",
+      "armor:bucket_helmet": "file(entities/armor/bucket_helmet/bucket_helmet.json)",
+      "armor:crate_helmet": "file(entities/armor/crate_helmet/crate_helmet.json)",
+      "armor:makeshift_stone_armor": "file(entities/armor/makeshift_stone_armor/makeshift_stone_armor.json)",
+      "armor:ornate_armor": "file(entities/armor/ornate_armor/ornate_armor.json)",
+      "armor:iron_mail": "bastioneers/entities/armor/iron_mail/",
+      "armor:bronze_breastplate": "bastioneers/entities/armor/bronze_breastplate",
+      "armor:steel_mail": "bastioneers/entities/armor/steel_mail",
+      "armor:leather_vest": "bastioneers/entities/armor/leather_vest",
+      "armor:cloth_padded_vest": "bastioneers/entities/armor/cloth_padded_vest",
+      "worker:outfit:winter": "/bastioneers/jobs/worker/winter_worker_outfit",
+      "buffs:courage": "file(data/buffs/courage/courage_buff.json)",
+      "data:gm_index": "file(data/gm/gm_index.json)",
+      "kingdoms:bastioneers" : "file(data/bastioneers_population.json)",
+      "male": "file(entities/bastioneers/male/male.json)",
+      "food:fungi:fine_mushroom_basket": "file(entities/food/fine_mushrooms/fine_mushroom_basket/fine_mushroom_basket.json)",
+      "food:fungi:golden_mushroom_basket": "file(entities/food/golden_mushrooms/golden_mushroom_basket/golden_mushroom_basket.json)",
+      "food:fungi:mushroom_basket": "file(entities/food/mushrooms/mushroom_basket/mushroom_basket.json)",
+      "food:fungi:fine_mushroom_serving": "file(entities/food/fine_mushrooms/fine_mushroom_serving/fine_mushroom_serving.json)",
+      "food:fungi:golden_mushroom_serving": "file(entities/food/golden_mushrooms/golden_mushroom_serving/golden_mushroom_serving.json)",
+      "food:fungi:mushroom_serving": "file(entities/food/mushrooms/mushroom_serving/mushroom_serving.json)",
+      "female" :  "file(entities/bastioneers/female/female.json)",
+      "footman:stone_sword_talisman" : "file(/entities/weapons/stone_sword/stone_sword_talisman.json)",
+      "fungi:fine_mushroom_colony": "file(/entities/fungi/fine_mushroom_colony/fine_mushroom_colony.json)",
+      "fungi:golden_mushroom_colony": "file(/entities/fungi/golden_mushroom_colony/golden_mushroom_colony.json)",
+      "fungi:mushroom_colony": "file(/entities/fungi/mushroom_colony/mushroom_colony.json)",
+      "furniture:crude_stone_bed" : "file(entities/furniture/crude_stone_bed/crude_stone_bed.json)",
+      "furniture:kingly_stone_bed" : "file(entities/furniture/kingly_stone_bed/kingly_stone_bed.json)",
+      "furniture:luxurious_stone_bed" : "file(entities/furniture/luxurious_stone_bed/luxurious_stone_bed.json)",
+      "furniture:pleasant_stone_bed" : "file(entities/furniture/pleasant_stone_bed/pleasant_stone_bed.json)",
+      "jobs:index" : "file(jobs/index.json)",
+      "jobs:blacksmith" : "file(jobs/blacksmith/b_blacksmith_description.json)",
+      "jobs:carpenter" : "file(jobs/carpenter/b_carpenter_description.json)",
+      "jobs:cook" : "file(jobs/cook/b_cook_description.json)",
+      "jobs:farmer" : "file(jobs/farmer/b_farmer_description.json)", 
+      "jobs:footman" : "file(jobs/footman/b_footman_description.json)",
+      "jobs:herbalist" : "file(jobs/herbalist/b_herbalist_description.json)",
+      "jobs:mason" : "file(jobs/mason/b_mason_description.json)",
+      "jobs:potter" : "file(jobs/potter/b_potter_description.json)",
+      "jobs:shepherd" : "file(jobs/shepherd/b_shepherd_description.json)",
+      "jobs:shepherd" : "file(jobs/shepherd/b_shepherd_description.json)",
+      "jobs:trapper" : "file(jobs/trapper/b_trapper_description.json)", 
+      "jobs:weaver" : "file(jobs/weaver/b_weaver_description.json)",
+      "jobs:worker" : "file(jobs/worker/b_worker_description.json)",
+      "b_camp_standard": "file(entities/gizmos/b_camp_standard)",
+      "b_camp_standard_ghost": "file(entities/gizmos/b_camp_standard/b_camp_standard_ghost.json)",
+      "skeletons:humanoid:male": "file(data/rigs/bastioneer/bastioneer.json)",
+      "skeletons:humanoid:female": "file(data/rigs/bastioneer/bastioneer.json)",
+      "storage:wicker_basket": "file(entities/storage/wicker_basket)",
+      "weapons:stone_sword": "file(entities/weapons/stone_sword/stone_sword.json)",
+      "worker:outfit:2": "file(jobs/worker/worker_outfit_2)"
+   },
+   "mixintos" :  {
+      "stonehearth:playable_kingdom_index" : "file(data/b_playable_kingdom_index.json)",
+      "stonehearth:data:gm_index" : "bastioneers:data:gm_index", 
+      "stonehearth:farmer:initial_crops" : "file(data/b_initial_crops.json)",
+      "/stonehearth/mixins/base_human/base_human.json": "file(data/mixins/base_human.json)"
+   },
+   "overrides" : {
+      "stonehearth/services/server/population/population_faction.lua" : "file(services/server/population/population_faction.lua)"
+   },
+   "components": {
+      "brittleness": "file(components/brittleness/brittleness_component.lua)"
+   },
+   "controllers" : {
+      "observers:armor_battery_observer" : "file(ai/observers/armor_battery_observer.lua)"
+   }
+}

@@ -1,0 +1,105 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "returning_trader",
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:returning_trader",
+      "data": {
+         "expiration_timeout": "6h",
+         "score_threshold": 1000,
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.title)",
+         "trade_details": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.trade_details)",
+         "waiting_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.waiting_title)",
+         "waiting_text": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.waiting_text)",
+         "return_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_title)",
+         "return_greetings_positive": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_greetings_positive)",
+         "return_greetings_negative": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_greetings_negative)",
+         "max_days_before_return": 3,
+         "wants": {
+            "stonehearth:mason:talisman": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:furniture:clay_bed": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:furniture:clay_dining_table": {
+               "min": 5,
+               "max": 12
+            },
+            "stonehearth:decoration:clay_lamp": {
+               "min": 5,
+               "max": 20
+            },
+            "stonehearth:decoration:clay_wall_lamp": {
+               "min": 1,
+               "max": 4
+            },
+            "stonehearth:decoration:decorative_teapot": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:construction:red_clay_door": {
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:construction:green_clay_door": {
+               "min": 2,
+               "max": 4
+            },
+            "stonehearth:construction:latticed_clay_window_frame": {
+               "min": 4,
+               "max": 10
+            }
+         },
+         "rewards": {
+            "stonehearth:decoration:wooden_garden_lantern": {
+               "type": "object",
+               "min": 2,
+               "max": 6
+            },
+            "stonehearth:refined:cloth_bolt": {
+               "type": "object",
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:furniture:comfy_bed": {
+               "type": "object",
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:curtains": {
+               "type": "object",
+               "min": 2,
+               "max": 5
+            },
+            "stonehearth:weapons:stone_maul": {
+               "type": "object",
+               "min": 1,
+               "max": 2
+            },
+            "stonehearth:weapons:giant_bone_axe": {
+               "type": "object",
+               "min": 1,
+               "max": 2
+            },
+            "stonehearth:armor:bronze_breastplate": {
+               "type": "object",
+               "min": 1,
+               "max": 2
+            },
+            "stonehearth:toys:plushie_toy_rabbit": {
+               "type": "object",
+               "min": 1,
+               "max": 2
+            },
+            "stonehearth:potter:talisman": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            }
+         }
+      }
+   }
+}

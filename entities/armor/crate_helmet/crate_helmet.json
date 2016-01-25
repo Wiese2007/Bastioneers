@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.armor.crate_helmet.description)",
+         "icon": "file(crate_helmet.png)",
+         "display_name": "i18n(bastioneers:entities.armor.crate_helmet.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "models": [
+               "file(crate_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "models": [
+               "file(crate_helmet.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(crate_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "head",
+         "render_type": "merge_with_model",
+         "ilevel": 1,
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 85,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

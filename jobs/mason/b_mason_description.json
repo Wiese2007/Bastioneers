@@ -1,0 +1,22 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:mason",
+   "requirements": "i18n(bastioneers:jobs.mason.mason_description.requirements)",
+   "description": "i18n(bastioneers:jobs.mason.mason_description.description)",
+   "parent_job": "stonehearth:jobs:worker",
+   "crafter": {
+   "recipe_list": "/bastioneers/jobs/mason/recipes/recipes.json"
+   },
+   "equipment": {
+      "torso": "file(mason_outfit)"
+   },
+   "xp_rewards": {
+      "craft_level_0": 32,
+      "craft_level_1": 33,
+      "craft_level_2": 34,
+      "craft_level_3": 35,
+      "craft_level_4": 36,
+      "craft_level_5": 37,
+      "craft_level_6": 38
+   }
+}

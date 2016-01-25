@@ -1,0 +1,20 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:potter",
+   "requirements": "i18n(bastioneers:jobs.potter.potter_description.requirements)",
+   "description": "i18n(bastioneers:jobs.potter.potter_description.description)",
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement": 5,
+   "equipment": {
+      "torso": "file(potter_outfit)"
+   },
+   "xp_rewards": {
+      "craft_level_0": 32,
+      "craft_level_1": 33,
+      "craft_level_2": 34,
+      "craft_level_3": 35,
+      "craft_level_4": 36,
+      "craft_level_5": 37,
+      "craft_level_6": 38
+   }
+}

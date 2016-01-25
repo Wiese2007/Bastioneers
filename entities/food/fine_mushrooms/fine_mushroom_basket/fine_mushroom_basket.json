@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "food",
+         "stacks": 3,
+         "maxStacks": 3
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fine_mushroom_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(fine_mushroom_basket_rotting.qb)"
+            ]
+         },
+         "decay_2": {
+            "models": [
+               "file(fine_mushroom_basket_rotten.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.description)",
+         "icon": "file(fine_mushroom_basket.png)",
+         "display_name": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.display_name)"
+      },
+      "stonehearth:material": {
+         "tags": "food_container raw_food fungi mushroom fine_mushroom "
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "bastioneers:food:fungi:fine_mushroom_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

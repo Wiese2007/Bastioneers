@@ -1,0 +1,56 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.armor.ornate_armor.description)",
+         "icon": "file(ornate_armor.png)",
+         "display_name": "i18n(bastioneers:entities.armor.ornate_armor.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor heavy_armor"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "models": [
+               "file(ornate_armor.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "models": [
+               "file(ornate_armor.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(ornate_armor_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 12,
+         "roles": "combat",
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 12
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 200,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

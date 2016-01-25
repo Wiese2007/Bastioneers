@@ -1,0 +1,58 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.armor.bucket_helmet.description)",
+         "icon": "file(bucket_helmet.png)",
+         "display_name": "i18n(bastioneers:entities.armor.bucket_helmet.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "models": [
+               "file(bucket_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "models": [
+               "file(bucket_helmet.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(bucket_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "head",
+         "ilevel": 1,
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      },
+      "bastioneers:brittleness": {
+         "total_durability": 20
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 3
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 85,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

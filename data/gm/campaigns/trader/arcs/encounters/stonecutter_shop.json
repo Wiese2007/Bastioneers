@@ -1,0 +1,61 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "stonecutter",
+   "shop_info": {
+      "title": "i18n(rayyas_children:data.gm.campaigns.trader.stonecutter_shop.shop_info.title)",
+      "name": "i18n(rayyas_children:data.gm.campaigns.trader.stonecutter_shop.shop_info.name)",
+      "inventory": {
+         "overall_price_multiplier": 0.8,
+         "entries": [
+            {
+               "items_matching": {
+                  "stone stuff": {
+                     "category": [
+                        "furniture",
+                        "decoration"
+                     ],
+                     "material": [
+                        "stone"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 1,
+                  "max": 2
+               }
+            },
+            {
+               "items_matching": {
+                  "stone stuff": {
+                     "category": [
+                        "resources"
+                     ],
+                     "material": [
+                        "stone"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 10,
+                  "max": 30
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:copper:ore",
+                  "stonehearth:resources:tin:ore",
+                  "stonehearth:resources:coal:lump_of_coal",
+                  "stonehearth:resources:iron:ore"
+               ],
+               "quantity": {
+                  "min": 10,
+                  "max": 20
+               }
+            }
+         ]
+      }
+   }
+}

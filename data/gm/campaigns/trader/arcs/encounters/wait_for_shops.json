@@ -1,0 +1,11 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "wait_for_shops",
+   "out_edge" : "spawn_shops",
+
+   "wait_info" :  {
+      "duration" : "20h+4h"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "spawn_shop",
+   "shop_info": {
+      "name": "i18n(stonehearth:data.gm.campaigns.trader.food_shop.shop_info.name)",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.food_shop.shop_info.title)",
+      "inventory": {
+         "items_matching": {
+            "food": {
+               "category": [
+                  "food"
+               ]
+            }
+         }
+      }
+   }
+}

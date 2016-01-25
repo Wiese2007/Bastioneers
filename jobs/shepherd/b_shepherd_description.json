@@ -1,0 +1,11 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:shepherd",
+   "parent_job": "stonehearth:jobs:trapper",
+   "parent_level_requirement": 4,
+   "requirements": "i18n(bastioneers:jobs.shepherd.shepherd_description.requirements)",
+   "description": "i18n(bastioneers:jobs.shepherd.shepherd_description.description)",
+   "equipment": {
+      "torso": "file(shepherd_outfit)"
+   }
+}

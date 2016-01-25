@@ -1,0 +1,20 @@
+{
+   "type" : "campaign",
+   "rarity" : "common",
+   "can_start" : {
+      "kingdom_check" : {
+         "type" : "deny_if_not",
+         "item" : "kingdom",
+         "value" : "rayyas_children:kingdoms:rayyas_children"
+      }
+   },
+   "arcs" : {
+      "trigger" : {
+         "caravan_shops" : "file(arcs/caravan_shops_arc.json)"
+      },
+      "challenge" : {
+      },
+      "climax" : {
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "crops_by_kingdom" : {
+      "bastioneers:kingdoms:bastioneers" : [
+         {
+            "crop_type" : "fallow"
+         },
+         {
+            "crop_type" : "stonehearth:crops:turnip_crop",
+            "quantity" : 10
+         },
+         {
+            "crop_type" : "stonehearth:crops:corn_crop",
+            "quantity" : 5
+         },
+         {
+            "crop_type" : "stonehearth:crops:silkweed_crop",
+            "quantity" : 1
+         },
+         {
+            "crop_type" : "stonehearth:crops:wheat_crop",
+            "quantity" : 1
+         },
+         {
+            "crop_type" : "stonehearth:crops:oak_tree_crop",
+            "quantity" : 1
+         }
+
+      ]        
+   }
+}

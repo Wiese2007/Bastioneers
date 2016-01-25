@@ -1,0 +1,17 @@
+{
+   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+   "craftable_recipes": {
+      "fungi": {
+         "ordinal": 3,
+         "name": "i18n(bastioneers:jobs.herbalist.recipes.fungi_name)",
+         "recipes": {
+            "mushroom_colony": {
+               "recipe": "file(mushroom_colony_recipe.json)"
+            },
+            "fine_mushroom_colony": {
+               "recipe": "file(fine_mushroom_colony_recipe.json)"
+            }
+         }
+      }
+   }
+}

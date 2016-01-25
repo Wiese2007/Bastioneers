@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(bastioneers:jobs.carpenter.recipes.crate_helmet_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.carpenter.recipes.crate_helmet_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.carpenter.recipes.crate_helmet_recipe.flavor)",
+   "portrait": "/bastioneers/entities/armor/crate_helmet/crate_helmet.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:armor:crate_helmet"
+      }
+   ]
+}

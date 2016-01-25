@@ -1,0 +1,34 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(bastioneers:jobs.mason.recipes.luxurious_stone_bed_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.mason.recipes.luxurious_stone_bed_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.mason.recipes.luxurious_stone_bed_recipe.flavor)",
+   "portrait": "/bastioneers/entities/furniture/luxurious_stone_bed/luxurious_stone_bed.png",
+   "workshop" : "stonehearth:mason:pedestal", 
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "bastioneers:furniture:pleasant_stone_bed",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:furniture:luxurious_stone_bed",
+         "fine": "bastioneers:furniture:kingly_stone_bed"
+      }
+   ]
+}

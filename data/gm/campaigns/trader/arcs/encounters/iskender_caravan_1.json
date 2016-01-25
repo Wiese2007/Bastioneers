@@ -1,0 +1,54 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "iskender_caravan_1",
+   "out_edge": "wait_for_tomorrow_2",
+   "shop_info": {
+      "name": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_1.shop_info.name)",
+      "title": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_1.shop_info.title)",
+      "inventory": {
+         "overall_price_multiplier": 4,
+         "entries": [
+            {
+               "items": [
+                  "stonehearth:resources:wood:acacia_log"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 5
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:clay:clay_mound"
+               ],
+               "quantity": {
+                  "min": 3,
+                  "max": 20
+               },
+               "price_multiplier": 1
+            },
+            {
+               "items": [
+                  "stonehearth:food:prickly_pear:prickly_pear_basket"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 10
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:food:golden_gourd:golden_gourd_basket"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 10
+               }
+            }
+         ]
+      }
+   }
+}

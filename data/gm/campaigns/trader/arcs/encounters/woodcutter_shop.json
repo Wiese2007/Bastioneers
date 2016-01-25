@@ -1,0 +1,43 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "woodcutter",
+   "shop_info": {
+      "name": "i18n(rayyas_children:data.gm.campaigns.trader.woodcutter_shop.shop_info.name)",
+      "title": "i18n(rayyas_children:data.gm.campaigns.trader.woodcutter_shop.shop_info.title)",
+      "inventory": {
+         "overall_price_multiplier": 3,
+         "entries": [
+            {
+               "items_matching": {
+                  "wood stuff": {
+                     "category": [
+                        "furniture",
+                        "decoration"
+                     ],
+                     "material": [
+                        "wood"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 1,
+                  "max": 2
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:wood:oak_log",
+                  "stonehearth:resources:wood:juniper_log"
+               ],
+               "quantity": {
+                  "min": 5,
+                  "max": 10
+               }
+            }
+         ]
+      }
+   }
+}

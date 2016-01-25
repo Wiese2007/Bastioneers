@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:entities.armor.steel_mail.steel_mail_iconic.description)",
+         "icon": "file(steel_mail.png)",
+         "display_name": "i18n(stonehearth:entities.armor.steel_mail.steel_mail_iconic.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "steel armor heavy_armor"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_mail_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:weaver",
+   "requirements": "i18n(bastioneers:jobs.weaver.weaver_description.requirements)",
+   "description": "i18n(bastioneers:jobs.weaver.weaver_description.description)",
+   "parent_job": "stonehearth:jobs:herbalist",
+   "parent_level_requirement" : 3,
+   "equipment": {
+      "torso": "file(weaver_outfit)"
+   },
+   "crafter": {
+      "recipe_list": "/bastioneers/jobs/weaver/recipes/recipes.json"
+   }
+}

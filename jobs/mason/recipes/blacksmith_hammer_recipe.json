@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.blacksmith_hammer_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.blacksmith_hammer_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.blacksmith_hammer_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/blacksmith/blacksmith_hammer/blacksmith_hammer.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 10
+      },
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:blacksmith:talisman"
+      }
+   ]
+}

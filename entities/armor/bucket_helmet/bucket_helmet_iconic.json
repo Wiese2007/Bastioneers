@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.armor.bucket_helmet.bucket_helmet_iconic.description)",
+         "icon": "file(bucket_helmet.png)",
+         "display_name": "i18n(bastioneers:entities.armor.bucket_helmet.bucket_helmet_iconic.display_name)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor heavy_armor"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bucket_helmet_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   }
+}

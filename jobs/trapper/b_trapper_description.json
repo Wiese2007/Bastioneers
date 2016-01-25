@@ -1,0 +1,16 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:trapper",
+   "parent_job": "stonehearth:jobs:worker",
+   "requirements": "i18n(bastioneers:jobs.trapper.trapper_description.requirements)",
+   "description": "i18n(bastioneers:jobs.trapper.trapper_description.description)",
+   "parent_level_requirement": 0,
+   "equipment": {
+   		"torso" : "file(trapper_outfit)"
+   },
+      "xp_rewards": {
+      "befriend_pet": 40,
+      "unsuccessful_trap": 5,
+      "successful_trap": 10
+   }
+}

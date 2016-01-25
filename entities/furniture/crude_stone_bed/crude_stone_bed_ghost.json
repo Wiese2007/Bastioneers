@@ -1,0 +1,35 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "i18n(bastioneers:entities.furniture.crude_stone_bed.crude_stone_bed_ghost.description)",
+         "icon": "file(crude_stone_bed.png)",
+         "display_name": "i18n(bastioneers:entities.furniture.crude_stone_bed.crude_stone_bed_ghost.display_name)"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(crude_stone_bed.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "crude stone furniture crafted"
+      },
+      "render_info": {
+         "scale": 0.22
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   }
+}

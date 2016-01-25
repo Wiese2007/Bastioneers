@@ -1,0 +1,11 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "wait_for_tomorrow_1",
+   "out_edge" : "iskender_caravan_1",
+
+   "wait_info" :  {
+      "duration" : "20h+4h"
+   }
+}

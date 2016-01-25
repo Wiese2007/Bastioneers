@@ -1,0 +1,28 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(bastioneers:jobs.herbalist.recipes.mushroom_colony_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.herbalist.recipes.mushroom_colony_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.herbalist.recipes.mushroom_colony_recipe.flavor)",
+   "portrait": "/bastioneers/entities/fungi/mushroom_colony/mushroom_colony.png",
+   "workshop" : "stonehearth:herbalist:workbench", 
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      },
+      {
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "material": "herb resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:fungi:mushroom_colony"
+      }
+   ]
+}

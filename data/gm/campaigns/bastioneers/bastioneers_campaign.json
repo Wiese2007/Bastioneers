@@ -1,0 +1,14 @@
+{
+   "type" : "campaign",
+   "rarity" : "common",
+
+   "arcs" : {
+      "trigger" : {
+         "helper" : "file(arcs/trigger/helper/helper.json)"
+      },
+      "challenge" : {
+      },
+      "climax" : {
+      }
+   }
+}
