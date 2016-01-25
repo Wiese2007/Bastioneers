@@ -1,5 +1,5 @@
 ### Bastioneers
-A new race mod for Stonehearth!
+A new race mod for Stonehearth! Find this wonderful game on steam or go to http://www.stonehearth.net/
 
 ## What is it?
   Bastioneers a curious new race to the world of Stonehearth. Commanding these little creatures will be a unique, more challenging experience than you will get from any normal old human. Should you be up to the challenge, you'll discover the Bastioneers to be quite intriguing.
