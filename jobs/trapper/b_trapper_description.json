@@ -9,8 +9,8 @@
    		"torso" : "file(trapper_outfit)"
    },
       "xp_rewards": {
-      "befriend_pet": 40,
-      "unsuccessful_trap": 5,
-      "successful_trap": 10
+      "befriend_pet": 50,
+      "unsuccessful_trap": 9,
+      "successful_trap": 15
    }
 }

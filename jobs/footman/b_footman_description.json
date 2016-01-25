@@ -11,7 +11,7 @@
       "mainhand": "bastioneers:weapons:stone_sword"
    },
    "xp_rewards": {
-      "base_exp_per_hit": 9
+      "base_exp_per_hit": 12
    },
    "level_data": {
       "2": {
