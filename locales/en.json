@@ -47,25 +47,6 @@
          "cook_description": {
             "description": "As with people, tending crop for any amount of time reveal who work well with whom. Cooks choose rather to use these harmonies to create dishes to feed others.",
             "requirements": "Level 2 Farmer and a Stoneware Spoon, crafted by the Mason."
-         },
-         "recipes": {
-            "golden_gourd_curry_recipe": {
-               "description": "Are gourds are more edible when cooked?",
-               "recipe_name": "Golden Guord Curry",
-               "flavor": "TODO(flavor!)"
-            },
-            "flat_bread_recipe": {
-               "description": "Unleavened bread made from corn meal",
-               "recipe_name": "Flat Bread"
-            },
-            "meat_tagine_recipe": {
-               "description": "Meat and veggies simmered in a clay pot",
-               "recipe_name": "Meat Stew Tagine"
-            },
-            "vegetable_tagine_recipe": {
-               "description": "Veggies simmered in a clay pot",
-               "recipe_name": "Vegetable Stew Tagine"
-            }
          }
       },
       "farmer": {
