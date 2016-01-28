@@ -208,62 +208,6 @@
                      "007": "The Herald is our bastion."
                   }
                }
-            },
-            "trader": {
-               "iskender_caravan_1": {
-                  "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns!"
-                  }
-               },
-               "iskender_caravan_2": {
-                  "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns with more things!"
-                  }
-               },
-               "iskender_caravan_3": {
-                  "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns!"
-                  }
-               },
-               "starting_food_donation": {
-                  "donation_dialog_info": {
-                     "dialog_nodes": {
-                        "simple_message": {
-                           "bulletin_message": {
-                              "000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake your families sent along:",
-                              "001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies your families ordered for you:",
-                              "002": "Iskender Traders is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
-                              "003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, your parents sent these supplies, to get you started:",
-                              "004": "Aha, a new potential partner for Iskender Traders! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
-                           },
-                           "bulletin_title": "An Iskender Agent Approaches",
-                           "dialog_title": "Naryal Iskender",
-                           "choice_000": "Many thanks, Honored Elder!"
-                        }
-                     }
-                  }
-               },
-               "stonecutter_shop": {
-                  "shop_info": {
-                     "name": "Vosker Saji's Polished Earths",
-                     "title": "A master mason's cart draws near"
-                  }
-               },
-               "tannery_shop": {
-                  "shop_info": {
-                     "name": "Rin's Fine Pelts and Rugs",
-                     "title": "A wagon of fine animal goods approaches"
-                  }
-               },
-               "woodcutter_shop": {
-                  "shop_info": {
-                     "name": "Rajin's Goods of the Distant West",
-                     "title": "An exotic shop of rare woods arrives"
-                  }
-               }
             }
          }
       }
