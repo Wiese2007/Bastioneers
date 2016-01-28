@@ -9,10 +9,10 @@
       "wait for tomorrow 2" : "file(encounters/wait_for_next_day_2.json)", 
       "wait for tomorrow 3" : "file(encounters/wait_for_next_day_3.json)", 
 
-      "iskender_caravan" : "file(encounters/iskender_caravan.json)", 
-      "iskender caravan 1" : "file(encounters/iskender_caravan_1.json)",
-      "iskender caravan 2" : "file(encounters/iskender_caravan_2.json)",
-      "iskender caravan 3" : "file(encounters/iskender_caravan_3.json)",
+      "bastioneers_expedition" : "file(encounters/bastioneers_expedition.json)", 
+      "bastioneers_expedition_1" : "file(encounters/bastioneers_expedition_1.json)",
+      "bastioneers_expedition_2" : "file(encounters/bastioneers_expedition_2.json)",
+      "bastioneers_expedition_3" : "file(encounters/bastioneers_expedition_3.json)",
 
       "wait_for_shops" : "file(encounters/wait_for_shops.json)", 
 

@@ -3,11 +3,10 @@
    "encounter_type": "shop",
    "rarity": "common",
    "unique": true,
-   "in_edge": "iskender_caravan_3",
-   "out_edge": "wait_for_shops",
+   "in_edge": "bastioneers_expedition",
    "shop_info": {
-      "name": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_3.shop_info.name)",
-      "title": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_3.shop_info.title)",
+      "name": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_3.shop_info.name)",
+      "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_3.shop_info.title)",
       "inventory": {
          "overall_price_multiplier": 4,
          "entries": [
@@ -37,8 +36,7 @@
                "quantity": {
                   "min": 3,
                   "max": 20
-               },
-               "price_multiplier": 3
+               }
             },
             {
                "items": [

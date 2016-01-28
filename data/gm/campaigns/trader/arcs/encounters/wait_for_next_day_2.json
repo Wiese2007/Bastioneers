@@ -3,7 +3,7 @@
    "encounter_type" : "wait",
 
    "in_edge"  : "wait_for_tomorrow_2",
-   "out_edge" : "iskender_caravan_2",
+   "out_edge" : "bastioneers_expedition_2",
 
    "wait_info" :  {
       "duration" : "20h+4h"

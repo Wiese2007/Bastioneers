@@ -11,6 +11,7 @@ local old_fnc = stonehearth.game_master.start
 local ret = { old_fnc(self, ...) }
 
 	self:_start_campaign 'helper'
+	self:_start_campaign 'trader'
    return unpack(ret)
 
 	end

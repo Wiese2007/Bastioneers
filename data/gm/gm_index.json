@@ -1,7 +1,7 @@
 {
    "campaigns" : {
       "trader" : {
-         "rc_traders" : "file(campaigns/trader/trader_campaign.json)"
+         "traders" : "file(campaigns/trader/trader_campaign.json)"
       },
       "helper": {
       	"helper": "file(campaigns/bastioneers/bastioneers_campaign.json)"

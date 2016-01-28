@@ -7,18 +7,18 @@
       "nodes": {
          "simple_message": {
             "bulletin": {
-               "title": "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
-               "dialog_title": "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
-               "portrait": "file(images/naryal_iskender.png)",
+               "title": "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/bastioneers_colonel.png)",
                "message": [
-                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)",
-                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.001)",
-                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.002)",
-                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.003)",
-                  "i18n(rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.004)"
+                  "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)",
+                  "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.001)",
+                  "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.002)",
+                  "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.003)",
+                  "i18n(bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.004)"
                ],
                "choices": {
-                  "rayyas_children:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                  "bastioneers:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
                      "result": "accept"
                   }
                }

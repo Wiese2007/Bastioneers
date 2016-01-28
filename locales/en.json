@@ -70,7 +70,7 @@
       },
       "farmer": {
          "farmer_description": {
-            "description2": "Spending all your time wandering and stalking through nature, one can't help but long to settle down. Farmer return to the sedentary life of growing crops that can be crafted, used in cooking, or healing.",            "requirements": "Level 2 Herbalist and a Farmer's Hoe, crafted by the Carpenter."
+            "description": "Spending all your time wandering and stalking through nature, one can't help but long to settle down. Farmer return to the sedentary life of growing crops that can be crafted, used in cooking, or healing.",            "requirements": "Level 2 Herbalist and a Farmer's Hoe, crafted by the Carpenter."
          },
          "farmer_hood": {
             "description": "A basic hood to keep the sun off one's neck while they farm.",
@@ -85,8 +85,8 @@
       },
       "herbalist": {
          "herbalist_description": {
-            "description": "Perhaps they couldn't stomach the slaughtering, or maybe they simply weren't good at it, but some find that flora are more useful than fauna. Herbalists use plants to concoct potions that heal and buff stats.",
-            "requirements": "Level 2 Footman and an Herbalist's Staff, crafted by the Carpenter."
+            "description": "Some find that flora are more useful than fauna. Herbalists use plants to concoct potions that heal and buff stats.",
+            "requirements": "Level 2 Shepherd and an Herbalist's Staff, crafted by the Carpenter."
          },
          "herbalist_hood": {
             "description": "A nice hood that completes a herbalist's robe",
@@ -198,34 +198,34 @@
                   "dialog_title": "Bastioneers Commander",
                   "helper_title": "The Herald's Expedition",
                   "bulletin_message": {
-                     "000": "Righty 'neers, looks like made camp and preparing to make settlement!",
-                     "001": "Moving along then. Here's advice.",
+                     "000": "Congrats 'neers, made camp and now to make settlement!",
+                     "001": "Me'll move along then. Here's advice.",
                      "002": "It's scary out here, prepare to face many, many monsters.",
-                     "003": "The Herald's skilled masons craft armor that any 'neer wears; practically naked without it!",
+                     "003": "The Herald's skilled masons craft stone armor that any 'neer wears; practically naked without it! Stone armor: necessary for survival",
                      "004": "Right, stone armor breaks often, keep a good supply around! Otherwise, menacing monsters will eat you up!",
-                     "005": "Lots of learning and discovering out here, ingenuity needed to survive. None envy your group.",
-                     "006": "The Herald checks up on once settled and safe, with some requests... The Herald will not be denied. ",
+                     "005": "Lots of learning and discovering out here. Ingenuity needed to survive. The Herald does not envy you.",
+                     "006": "Check up on once settled and safe... Do not deny The Herald.",
                      "007": "The Herald is our bastion."
                   }
                }
             },
             "trader": {
-               "iskender_caravan_1": {
+               "bastioneers_expedition_1": {
                   "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Arrives!"
                   }
                },
-               "iskender_caravan_2": {
+               "bastioneers_expedition_2": {
                   "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns with more things!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Greets Your Settlement!"
                   }
                },
-               "iskender_caravan_3": {
+               "bastioneers_expedition_3": {
                   "shop_info": {
-                     "name": "Iskender Trading Caravan",
-                     "title": "The Iskender Trading Caravan returns!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Approaches!"
                   }
                },
                "starting_food_donation": {
@@ -233,35 +233,35 @@
                      "dialog_nodes": {
                         "simple_message": {
                            "bulletin_message": {
-                              "000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake your families sent along:",
-                              "001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies your families ordered for you:",
-                              "002": "Iskender Traders is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
-                              "003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, your parents sent these supplies, to get you started:",
-                              "004": "Aha, a new potential partner for Iskender Traders! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
+                              "000": "Found surface food, remember to get enough mineral in diet.",
+                              "001": "Settlement looks malnurished. Take this:",
+                              "002": "The Herald demands 'neers be well-fed!",
+                              "003": "Surface food is strange, but healthy! Try this:",
+                              "004": "Do not miss The Herald, take this incase."
                            },
-                           "bulletin_title": "An Iskender Agent Approaches",
-                           "dialog_title": "Naryal Iskender",
-                           "choice_000": "Many thanks, Honored Elder!"
+                           "bulletin_title": "A Surface 'Neering Cadet Approaches!",
+                           "dialog_title": "Food 'Neering Cadet",
+                           "choice_000": "Solid."
                         }
                      }
                   }
                },
                "stonecutter_shop": {
                   "shop_info": {
-                     "name": "Vosker Saji's Polished Earths",
-                     "title": "A master mason's cart draws near"
+                     "name": "Stone 'Neering Commander",
+                     "title": "An expedition for surface stone draws near"
                   }
                },
                "tannery_shop": {
                   "shop_info": {
-                     "name": "Rin's Fine Pelts and Rugs",
-                     "title": "A wagon of fine animal goods approaches"
+                     "name": "Animal 'Neering Captain",
+                     "title": "An expedition for fine animal goods approaches"
                   }
                },
                "woodcutter_shop": {
                   "shop_info": {
-                     "name": "Rajin's Goods of the Distant West",
-                     "title": "An exotic shop of rare woods arrives"
+                     "name": "Wood 'Neering Colonel",
+                     "title": "An expedition for rare surface woods arrives"
                   }
                }
             }

@@ -5,8 +5,8 @@
    "unique": true,
    "in_edge": "stonecutter",
    "shop_info": {
-      "title": "i18n(rayyas_children:data.gm.campaigns.trader.stonecutter_shop.shop_info.title)",
-      "name": "i18n(rayyas_children:data.gm.campaigns.trader.stonecutter_shop.shop_info.name)",
+      "title": "i18n(bastioneers:data.gm.campaigns.trader.stonecutter_shop.shop_info.title)",
+      "name": "i18n(bastioneers:data.gm.campaigns.trader.stonecutter_shop.shop_info.name)",
       "inventory": {
          "overall_price_multiplier": 0.8,
          "entries": [

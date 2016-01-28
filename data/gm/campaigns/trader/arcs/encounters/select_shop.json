@@ -27,7 +27,7 @@
             "weight": 1
          }, 
          {
-            "out_edge": "iskender_caravan", 
+            "out_edge": "bastioneers_expedition", 
             "type": "weighted_edge", 
             "weight": 10
          }, 

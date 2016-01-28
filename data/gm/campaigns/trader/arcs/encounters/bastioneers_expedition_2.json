@@ -3,10 +3,11 @@
    "encounter_type": "shop",
    "rarity": "common",
    "unique": true,
-   "in_edge": "iskender_caravan",
+   "in_edge": "bastioneers_expedition_2",
+   "out_edge": "wait_for_tomorrow_3",
    "shop_info": {
-      "name": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_3.shop_info.name)",
-      "title": "i18n(rayyas_children:data.gm.campaigns.trader.iskender_caravan_3.shop_info.title)",
+      "name": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.shop_info.name)",
+      "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.shop_info.title)",
       "inventory": {
          "overall_price_multiplier": 4,
          "entries": [
@@ -36,7 +37,8 @@
                "quantity": {
                   "min": 3,
                   "max": 20
-               }
+               },
+               "price_multiplier": 3
             },
             {
                "items": [
@@ -47,51 +49,6 @@
                   "max": 20
                },
                "price_multiplier": 1
-            },
-            {
-               "items": [
-                  "stonehearth:farmer:talisman"
-               ],
-               "quantity": {
-                  "min": 1,
-                  "max": 1
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:footman:wooden_sword_talisman"
-               ],
-               "quantity": {
-                  "min": 1,
-                  "max": 1
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:weaver:talisman"
-               ],
-               "quantity": {
-                  "min": 1,
-                  "max": 1
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:herbalist:talisman"
-               ],
-               "quantity": {
-                  "min": 1,
-                  "max": 1
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:armor:wooden_shield"
-               ],
-               "quantity": {
-                  "min": 1,
-                  "max": 2
-               }
             },
             {
                "items": [
@@ -118,24 +75,6 @@
                "quantity": {
                   "min": 2,
                   "max": 10
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:resources:herb:cactus_flower"
-               ],
-               "quantity": {
-                  "min": 2,
-                  "max": 10
-               }
-            },
-            {
-               "items": [
-                  "stonehearth:food:egg"
-               ],
-               "quantity": {
-                  "min": 2,
-                  "max": 5
                }
             },
             {

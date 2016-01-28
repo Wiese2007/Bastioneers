@@ -5,8 +5,8 @@
    "unique": true,
    "in_edge": "woodcutter",
    "shop_info": {
-      "name": "i18n(rayyas_children:data.gm.campaigns.trader.woodcutter_shop.shop_info.name)",
-      "title": "i18n(rayyas_children:data.gm.campaigns.trader.woodcutter_shop.shop_info.title)",
+      "name": "i18n(bastioneers:data.gm.campaigns.trader.woodcutter_shop.shop_info.name)",
+      "title": "i18n(bastioneers:data.gm.campaigns.trader.woodcutter_shop.shop_info.title)",
       "inventory": {
          "overall_price_multiplier": 3,
          "entries": [

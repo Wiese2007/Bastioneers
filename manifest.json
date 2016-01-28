@@ -60,6 +60,15 @@
       "weapons:stone_sword": "file(entities/weapons/stone_sword/stone_sword.json)",
       "worker:outfit:2": "file(jobs/worker/worker_outfit_2)"
    },
+   "overrides": {
+   		"stonehearth:armor:iron_mail": "bastioneers/entities/armor/iron_mail/",
+      	"stonehearth:armor:bronze_breastplate": "bastioneers/entities/armor/bronze_breastplate",
+     	"stonehearth:armor:steel_mail": "bastioneers/entities/armor/steel_mail",
+      	"stonehearth:armor:leather_vest": "bastioneers/entities/armor/leather_vest",
+      	"stonehearth:armor:cloth_padded_vest": "bastioneers/entities/armor/cloth_padded_vest",
+      	"stonehearth:worker:outfit:winter": "/bastioneers/jobs/worker/winter_worker_outfit",
+      	"stonehearth:worker:outfit:2": "file(jobs/worker/worker_outfit_2)"
+   	},
    "mixintos" :  {
       "stonehearth:playable_kingdom_index" : "file(data/b_playable_kingdom_index.json)",
       "stonehearth:data:gm_index" : "bastioneers:data:gm_index", 
