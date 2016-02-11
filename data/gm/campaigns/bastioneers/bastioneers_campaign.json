@@ -1,7 +1,13 @@
 {
    "type" : "campaign",
    "rarity" : "common",
-
+   "can_start" : {
+      "kingdom_check" : {
+         "type" : "deny_if_not",
+         "item" : "kingdom",
+         "value" : "bastioneers:kingdoms:bastioneers"
+      }
+   },
    "arcs" : {
       "trigger" : {
          "helper" : "file(arcs/trigger/helper/helper.json)"
